@@ -265,8 +265,8 @@
 <div aria-labelledby="hesap-tab" class="tab-pane fade  show active" id="hesap" role="tabpanel">
 <div class="mt-3 mb-3">
 <div class="col-md-12">
-<div class="range-main mb-3"><div class="slider1_parent"><p class="title">Boy:</p><input class="slider1 main" id="boyz" max="200" min="165" name="value1" readonly="readonly" smooth="yes" text="Boy:" type="text"><div class="main_block"><div class="groove_parent"><div class="groove"><div class="fill" style="background-color: rgb(126, 244, 255); width: 37.14%;"></div></div><div class="rider" style="left: calc(37.14% - 11px);"></div></div><table class="slider_range"><tr><td class="left">165</td><td class="right">200</td></tr></table></div></div> <div class="slider1_parent"><span></span><input class="slider1 detail" id="boy" max="200" min="165" name="value1" style="margin: 0; accent-color:#000" type="range" value="0"><div class="main_block"><div class="groove_parent"><div class="groove"><div class="fill" style="background-color:#7ef4ff;"></div></div><div class="rider"></div></div><table class="slider_range"><tr><td class="left">165</td><td class="right">200</td></tr></table></div></div>
-<div class="range-bilgi"><span>170</span> <span>200</span></div>
+<div class="range-main mb-3"><div class="slider1_parent"><p class="title">Boy:</p><input class="slider1 main" id="boyz" max="200" min="150" name="value1" readonly="readonly" smooth="yes" text="Boy:" type="text"><div class="main_block"><div class="groove_parent"><div class="groove"><div class="fill" style="background-color: rgb(126, 244, 255); width: 37.14%;"></div></div><div class="rider" style="left: calc(37.14% - 11px);"></div></div><table class="slider_range"><tr><td class="left">150</td><td class="right">200</td></tr></table></div></div> <div class="slider1_parent"><span></span><input class="slider1 detail" id="boy" max="200" min="150" name="value1" style="margin: 0; accent-color:#000" type="range" value="0"><div class="main_block"><div class="groove_parent"><div class="groove"><div class="fill" style="background-color:#7ef4ff;"></div></div><div class="rider"></div></div><table class="slider_range"><tr><td class="left">150</td><td class="right">200</td></tr></table></div></div>
+<div class="range-bilgi"><span>150</span> <span>200</span></div>
 </div>
 
 <div class="range-main mb-3"><div class="slider1_parent"><p class="title">Kilo:</p><input class="slider1 main" id="kiloz" max="120" min="45" name="value2" readonly="readonly" smooth="yes" text="Kilo:" type="text"><div class="main_block"><div class="groove_parent"><div class="groove"><div class="fill" style="background-color: rgb(126, 244, 255); width: 0%;"></div></div><div class="rider" style="left: calc(0% - 11px);"></div></div><table class="slider_range"><tr><td class="left">45</td><td class="right">120</td></tr></table></div></div> <div class="slider1_parent"><span></span><input class="slider1 detail" id="kilo" max="120" min="45" name="value2" style="margin: 0; accent-color:#000" type="range" value="0"><div class="main_block"><div class="groove_parent"><div class="groove"><div class="fill" style="background-color:#7ef4ff;"></div></div><div class="rider"></div></div><table class="slider_range"><tr><td class="left">45</td><td class="right">120</td></tr></table></div></div>
@@ -281,7 +281,7 @@
 <p class="sonuc-p" id="sonuc" style="padding-left:10px;padding-right:10px;"></p>
 <a href="#"> </a> <input id="sonucA" type="hidden" value=""></div>
 </div>
-<p>Mottowear beden önerisi için sorumluluk almaz. Sonuç tahmini değerlerden oluşmaktadır. Vücut yapınıza göre değişiklik gösterebilir. En doğru sonuç için ölçüleri dikkate almanız önerilir.</p>
+<p>Mottowear beden önerisi için sorumluluk almaz. Sonuç tahmini değerlerden oluşmaktadır. Vücut yapınıza göre değişiklik gösterebilir. En doğru sonuç için ölçüleri dikkate almanız önerilir. Ölçülerde +1 -1 oynama payı olabilir.</p>
 </div>
 </div>
 </div>
@@ -292,35 +292,35 @@
 	<thead>
 		<tr>
 			<th scope="col">Beden</th>
-			<th scope="col">En (cm)</th>
+			<th scope="col">Bel (cm)</th>
 			<th scope="col">Boy (cm)</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<th scope="row">S</th>
-			<td>69</td>
-			<td>72</td>
+			<td>34</td>
+			<td>94</td>
 		</tr>
 		<tr>
 			<th scope="row">M</th>
-			<td>71</td>
-			<td>74</td>
+			<td>36</td>
+			<td>97</td>
 		</tr>
 		<tr>
 			<th scope="row">L</th>
-			<td>73</td>
-			<td>76</td>
+			<td>38</td>
+			<td>100</td>
 		</tr>
 		<tr>
 			<th scope="row">XL</th>
-			<td>75</td>
-			<td>78</td>
+			<td>40</td>
+			<td>103</td>
 		</tr>
 		<tr>
 			<th scope="row">XXL</th>
-			<td>77</td>
-			<td>80</td>
+			<td>42</td>
+			<td>106</td>
 		</tr>
 	</tbody>
 </table>
@@ -345,10 +345,10 @@ var sonuc = "Bulunamad覺.";
 
 var bedenler = [
 { adi: "S", boy: 150, kilo: 45 },
-{ adi: "M", boy: 175, kilo: 77 },
+{ adi: "M", boy: 175, kilo: 70 },
 { adi: "L", boy: 185, kilo: 85 },
-{ adi: "XL", boy: 185, kilo: 92 },
-{ adi: "XXL", boy: 185, kilo: 110 },
+{ adi: "XL", boy: 190, kilo: 95 },
+{ adi: "XXL", boy: 195, kilo: 110 },
 ];
 
 
